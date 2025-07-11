@@ -160,6 +160,7 @@ main section {
   background-color: white;
   padding: 24px;
   border-radius: 15px;
+  border: 1px solid #ece4e4;
 }
 .star-icon {
   margin-bottom: 24px;
@@ -225,11 +226,12 @@ main section {
 /* here is lets tuch area */
 .lets-tuch-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  margin-left: -85px;
 }
 .lets-tuch-column h3 {
-  font-size: 97px;
+  font-size: 90px;
   font-weight: bold;
   font-family: "Raleway", sans-serif;
   color: #000000;
@@ -250,7 +252,7 @@ main section {
   font-weight: 400;
   border-radius: 10px;
   background-color: #fff;
-  width: 100%;
+  width: 118%;
   display: block;
   padding: 10px 20px;
   margin-bottom: 24px;
@@ -263,7 +265,7 @@ main section {
   font-weight: 400;
   border-radius: 10px;
   background-color: #fff;
-  width: 100%;
+  width: 118%;
   display: block;
   padding: 10px 20px;
   margin-bottom: 24px;
@@ -276,7 +278,7 @@ main section {
   font-weight: 400;
   border-radius: 10px;
   background-color: #fff;
-  width: 100%;
+  width: 118%;
   display: block;
   padding: 10px 20px;
   margin-bottom: 24px;
@@ -288,8 +290,8 @@ form input[type="submit"] {
   font-weight: bold;
   color: white;
   background-color: #4e47ff;
-  width: 100%;
-  padding: 12px 36px;
+  width: 130%;
+  padding: 20px 36px;
   border: none;
   cursor: pointer;
   border-radius: 10px;
