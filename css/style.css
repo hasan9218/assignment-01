@@ -205,7 +205,7 @@ main section {
   border-radius: 15px;
 }
 .focus-title h3 {
-  font-size: 50px;
+    font-size: 50px;
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     color: #000000;
@@ -221,4 +221,93 @@ main section {
 .focus-img img {
   margin-top: 25px;
   border-radius: 50px;
+}
+
+
+.lets-tuch-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lets-tuch-column h3 {
+    font-size: 97px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+    margin-bottom: 23px;
+
+}
+.lets-tuch-column label {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.lets-tuch-column input[type="email"]{
+  height: 50px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: 1px solid #ece4e4;
+}
+.lets-tuch-column input[type="text"]{
+  height: 50px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: 1px solid #ece4e4;
+}
+.lets-tuch-column textarea{
+  height: 100px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: 1px solid #ece4e4;
+}
+form input[type="submit"] {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #4e47ff;
+  width: 100%;
+  padding: 12px 0px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+
+}
+form input[type="submit"]:hover {
+  color: black;
+  background-color: yellow;
+  padding: 12px 36px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  font-family: "Raleway", sans-serif;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
