@@ -252,7 +252,7 @@ main section {
   font-weight: 400;
   border-radius: 10px;
   background-color: #fff;
-  width: 118%;
+  width: 123%;
   display: block;
   padding: 10px 20px;
   margin-bottom: 24px;
@@ -265,7 +265,7 @@ main section {
   font-weight: 400;
   border-radius: 10px;
   background-color: #fff;
-  width: 118%;
+  width: 123%;
   display: block;
   padding: 10px 20px;
   margin-bottom: 24px;
@@ -278,7 +278,7 @@ main section {
   font-weight: 400;
   border-radius: 10px;
   background-color: #fff;
-  width: 118%;
+  width: 123%;
   display: block;
   padding: 10px 20px;
   margin-bottom: 24px;
@@ -290,7 +290,7 @@ form input[type="submit"] {
   font-weight: bold;
   color: white;
   background-color: #4e47ff;
-  width: 130%;
+  width: 136%;
   padding: 20px 36px;
   border: none;
   cursor: pointer;
@@ -306,6 +306,7 @@ form input[type="submit"]:hover {
   -o-transition: 0.3s;
 }
 
+/* here is footer area */
 footer {
   background-color: white;
   border-top: 1px solid #ece4e4;
@@ -318,12 +319,11 @@ footer {
   padding: 100px 250px;
 }
 .footer-logo a {
-  font-size: 34px;
+  font-size: 65px;
   font-family: "Inter", sans-serif;
   text-decoration: none;
   font-weight: 700;
 }
-/* here is footer area */
 .footer-logo p {
   color: #8d8e98;
   font-size: 20px;
