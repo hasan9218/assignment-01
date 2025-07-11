@@ -32,12 +32,11 @@ body {
   font-family: "Raleway", sans-serif;
 }
 .btn button:hover {
-  color: black;
-  background-color: yellow;
+  background-color: rgb(112, 101, 206);
   padding: 12px 36px;
   border: none;
   cursor: pointer;
-  border-radius: 0px;
+  border-radius: 10px;
   font-family: "Raleway", sans-serif;
   transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -298,16 +297,67 @@ form input[type="submit"] {
 
 }
 form input[type="submit"]:hover {
-  color: black;
-  background-color: yellow;
+  background-color: rgb(112, 101, 206);
   padding: 12px 36px;
   border: none;
   cursor: pointer;
-  border-radius: 0px;
+  border-radius: 10px;
   font-family: "Raleway", sans-serif;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+}
+
+footer {
+  background-color: white;
+  border-top: 1px solid #ece4e4;
+
+}
+.footer-area {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.footer-content {
+  padding: 100px 250px;
+
+}
+.footer-logo a {
+  font-size: 34px;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+}
+.footer-logo p {
+    color: #8D8E98;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.footer-links ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  
+
+}
+.footer-links ul li a {
+  color: #8D8E98;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px 15px;
+
+}
+.footer-links ul li a:hover {
+  color: #4e47ff;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+
 }
